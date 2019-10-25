@@ -69,6 +69,7 @@ Load your kernel module:
 pi@raspberrypi:~/gpio-practice/4-kernelspace-c-version $ sudo insmod gpiotest.ko
 ```
 Press the button and watch the LED.
+
 Unload your kernel module:
 ```
 pi@raspberrypi:~/gpio-practice/4-kernelspace-c-version $ sudo rmmod gpiotest
