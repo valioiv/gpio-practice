@@ -30,13 +30,21 @@ pi@raspberrypi:~/gpio-practice/3-userspace-c-version $ sudo ./gpiotest
 ***4. Kernelspace loadable kernel module (LKM) C version - cross-compile it on PC:***
 
 Download RPi kernel source and a cross-compiler on the dev PC. For more information check here:
+
 https://www.raspberrypi.org/documentation/linux/kernel/building.md
+
 "Cross-compiling" -> "Install toolchain" section and
+
 "Cross-compiling" -> "Get sources" section
+
 Should be put here:
+
 ~/gpio-practice/tools
+
 and
+
 here:
+
 ~/gpio-practice/linux
 
 Add your path to the compiler:
