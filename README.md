@@ -28,6 +28,7 @@ pi@raspberrypi:~/gpio-practice/3-userspace-c-version $ sudo ./gpiotest
 
 
 ***4. Kernelspace loadable kernel module (LKM) C version - cross-compile it on PC:***
+
 Download RPi kernel source and a cross-compiler on the dev PC. For more information check here:
 https://www.raspberrypi.org/documentation/linux/kernel/building.md
 "Cross-compiling" -> "Install toolchain" section and
@@ -67,7 +68,7 @@ pi@raspberrypi:~/gpio-practice/4-kernelspace-c-version $ sudo rmmod gpiotest
 
 
 
-**5. Userspace C version by using mmap the SoC registers in a process's address space - compile it on RPi:**
+***5. Userspace C version by using mmap the SoC registers in a process's address space - compile it on RPi:***
 ```
 pi@raspberrypi:~ $ cd gpio-practice/5-userspace-c-mmap-hackers-version/  
 pi@raspberrypi:~/gpio-practice/5-userspace-c-mmap-hackers-version $ gcc -o gpiotest gpiotest.c
